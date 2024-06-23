@@ -1,3 +1,5 @@
+(removed video for github upload)
+
 # ParkEase
 
 Welcome to ParkEase, a smart parking management system designed to provide a seamless and secure parking experience. With advanced features and user-friendly interfaces, ParkEase aims to revolutionize the way you manage and use parking spaces.
