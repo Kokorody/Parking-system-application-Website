@@ -1,0 +1,7 @@
+![Screenshot 2024-06-23 224855](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/4d383014-2a3f-41b1-8443-98971c8dae0d)
+![Screenshot 2024-06-23 224900](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/54d61da0-ab0b-4818-860c-ca409db0e696)
+![Screenshot 2024-06-23 224908](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/917c33a2-8afb-4e41-a31b-085f3aeffb67)
+![Screenshot 2024-06-23 224919](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/58043c88-f0bd-4418-9e50-885439b56176)
+![Screenshot 2024-06-23 224939](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/9945cb80-1b3b-470c-8d48-4bb2cdf78690)
+![Screenshot 2024-06-23 224954](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/02b54749-42ae-4b1c-89f2-10b31918c87c)
+![Screenshot 2024-06-23 225101](https://github.com/Kokorody/Parking-system-application-Website/assets/119418789/790bf4b3-fe1a-4d68-a941-1c699581c8ec)
