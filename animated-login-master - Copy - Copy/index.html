@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="section-1 box">
+        <video autoplay loop muted id="video-background">
+        <source src="silvia.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <div class="signup-section">
+            <header>Signup</header>
+
+            <div class="social-buttons">
+                <button><i class='bx bxl-google'></i> Use Google</button>
+                <button><i class='bx bxl-apple'></i> Use Apple</button>
+            </div>
+
+            <div class="separator">
+                <div class="line"></div>
+                <p>Or</p>
+                <div class="line"></div>
+            </div>
+
+            <form id="signup-form">
+                <input type="text" id="signup-name" placeholder="Full name">
+                <span class="error" id="signup-name-error"></span>
+                <input type="email" id="signup-email" placeholder="Email address">
+                <span class="error" id="signup-email-error"></span>
+                <input type="password" id="signup-password" placeholder="Password">
+                <span class="error" id="signup-password-error"></span>
+                <a href="#">Forget Password?</a>
+                <button type="submit" class="btn">Signup</button>
+            </form>
+
+        </div>
+
+        <div class="login-section">
+            <header>Login</header>
+
+            <div class="social-buttons">
+                <button><i class='bx bxl-google'></i> Use Google</button>
+                <button><i class='bx bxl-apple'></i> Use Apple</button>
+            </div>
+
+            <div class="separator">
+                <div class="line"></div>
+                <p>Or</p>
+                <div class="line"></div>
+            </div>
+
+            <form id="login-form" action="payment/index.html" method="get">
+                <input type="email" id="login-email" placeholder="Email address">
+                <span class="error" id="login-email-error"></span>
+                <input type="password" id="login-password" placeholder="Password">
+                <span class="error" id="login-password-error"></span>
+                <a href="#">Forget Password?</a>
+                <div id="login-captcha-answer"></div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

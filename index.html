@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="smart parking system">
+    <meta name="keywords" content="smart, parking management,iot, smart parking system">
+    <title>ParkEase | Welcome</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        @media only screen and (max-width: 768px) {
+            .toggle-btn {
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                display: block;
+                margin-top: 10px;
+                margin-left: 2px;
+				justify-content: center;
+				box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+				color: aquamarine;
+				background-color: #1f2833;
+            }
+        }
+
+        @media only screen and (min-width: 769px) {
+            .toggle-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="opening-scene" class="opening-scene">
+        <img src="images/logo.png" alt="Park Ease Logo" class="logo">
+    </div>
+
+    <div id="main-content" class="main-content">
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <img src="images/logo.png" alt="ParkEase logo">    
+                    <h1><span class="highlight">  Park</span> Ease</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#subscriber">Subscriber</a></li>
+                        <li><a href="#slideshow">Software Overview</a></li>
+                    </ul>
+                    <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="section-1 box">
+            <h1>Welcome to Park Ease!</h1>
+            <h2 id="section-1-h2">Join Park Ease today!<br>enjoy a seamless parking experience with unmatched features and security!</h2>
+            <video autoplay loop muted id="video-background">
+                <source src="images/tokyo-1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <section id="features">
+            <div class="section-2 box">
+                <h1>Features</h1>
+                <hr>
+                <section id="boxes">
+                    <div class="container">
+                        <div class="part">
+                            <img src="images/security.jpg">
+                            <h3>SECURED OPERATION</h3>
+                            <button class="toggle-btn">Description</button>
+                            <p>Secure your parking system with the latest security technology.</p>
+                        </div>
+                        <div class="part">
+                            <img src="images/shutterstock_1025093167-150x150.jpg">
+                            <h3>EASY DATA ACCESS</h3>
+                            <button class="toggle-btn">Description</button>
+                            <p>Get the parking lot history of all your properties by date or by property on spot (offline).</p>
+                        </div>
+                        <div class="part">
+                            <img src="images/shutterstock_198983660-150x150.jpg">
+                            <h3>SIMPLIFY TASK</h3>
+                            <button class="toggle-btn">Description</button>
+                            <p>Make the gate staff's operation of the park system simpler, making the operation easier and more efficient.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="subscriber">
+            <div class="section-3 box">
+                <video autoplay loop muted id="s15">
+                    <source src="images/silvia.mp4" type="video/mp4">
+                </video>  
+                <div class="pricing-section">
+                    <div class="container">
+                        <div class="pricing-table">
+                            <div class="pricing-option free">
+                                <h2>Free</h2>
+                                <p>Rp.0/month</p>
+                                <a href="animated-login-master - Copy/index.html" target="_blank">
+                                    <button>Basic</button>
+                                </a>
+                                <ul>
+                                    <li>General Features</li>
+                                    <li>Unlimited Uses</li>
+                                    <li>Limited access to Plus Features</li>
+                                    <li>Basic Security Safety</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-option plus">
+                                <h2>Plus+</h2>
+                                <p>Rp.149k/month</p>
+                                <a href="animated-login-master - Copy - Copy/index.html" target="_blank">
+                                    <button>Plus</button>
+                                </a>
+                                <ul>
+                                    <li>Early access to new features</li>
+                                    <li>More Safety Security</li>
+                                    <li>In-app Customer Service</li>
+                                    <li>More easy to Use</li>
+                                    <li>Customizable</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <section id="slideshow" class="spaceslide">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsam esse? Nemo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsam esse? Nemo.</p>
+            <h2>Software Overview</h2>
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/app.png" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/login.png" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/kcaww.png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/app-masuk.png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+
+        <footer>
+            <div class="socials">
+                <a href="#"><i data-feather="instagram"></i></a>
+                <a href="#"><i data-feather="twitter"></i></a>
+            </div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#boxes">Features</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="credit">
+                &copy; 2024 ParkEase. All rights reserved. <a href="#">Privacy Policy</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script/scripts.js"></script>
+
+    <!-- feather icons -->
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            function checkWindowSize() {
+                if ($(window).width() <= 768) {
+                    $('#section-1-h2').hide();
+                    $('#features .part p').hide();
+                } else {
+                    $('#section-1-h2').show();
+                    $('#features .part p').show();
+                }
+            }
+
+            // Initial check
+            checkWindowSize();
+
+            // Check on window resize
+            $(window).resize(checkWindowSize);
+
+            $('.toggle-btn').on('click', function() {
+                $(this).next('p').slideToggle();
+            });
+        });
+    </script>
+
+    <script>
+        window.addEventListener('load', () => {
+            const openingScene = document.getElementById('opening-scene');
+            const mainContent = document.getElementById('main-content');
+            const logo = document.querySelector('.logo');
+
+            setTimeout(() => {
+                logo.classList.add('fade-in');
+            }, 1000);
+
+            setTimeout(() => {
+                openingScene.classList.add('fade-out');
+                mainContent.classList.add('visible');
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Payment</h1>
+  
+  <div id="methodSelection" class="method-grid">
+    <div class="bank-method">
+      <h2>Bank Method</h2>
+      <button type="button" class="payment-button" data-method="bca">
+        <img src="images/bca.png" alt="BCA" class="button-image">
+        BCA
+      </button>
+      <button type="button" class="payment-button" data-method="bni">
+        <img src="images/bni.jpg" alt="BNI" class="button-image">
+        BNI
+      </button>
+      <button type="button" class="payment-button" data-method="bri">
+        <img src="images/bri.png" alt="BRI" class="button-image">
+        BRI
+      </button>
+      <button type="button" class="payment-button" data-method="mandiri">
+        <img src="images/mandiri.png" alt="Mandiri" class="button-image">
+        Mandiri
+      </button>
+    </div>
+    
+    <div class="ewallet-method">
+      <h2>E-Wallet Method</h2>
+      <button type="button" class="payment-button" data-method="gopay">
+        <img src="images/gopay.jpg" alt="GoPay" class="button-image">
+        GoPay
+      </button>
+      <button type="button" class="payment-button" data-method="dana">
+        <img src="images/dana.jpg" alt="DANA" class="button-image">
+        DANA
+      </button>
+    </div>
+  </div>
+  
+  <div id="extraFields">
+    <!-- Placeholder for additional fields based on selected payment method -->
+  </div>
+  
+  <button id="payButton" type="button">Pay Now</button>
+  
+  <div id="message"></div>
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
