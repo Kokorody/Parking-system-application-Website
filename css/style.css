@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   margin: 0;
   padding: 0;
@@ -536,5 +537,230 @@ footer .credit a:hover {
 @keyframes logoFadeIn {
   to {
     opacity: 1;
+  }
+}
+
+
+/* media query */
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+      font-size: 75%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pricing-option {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-section {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  
+  #hamburger-menu {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: none; /* Initial state */
+}
+
+header nav ul.active {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    padding: 15px 0;
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.section-1 h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #66fcf1;
+}
+
+.section-1 h2 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+#boxes .part {
+  flex-basis: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+#boxes .part img {
+  width: 70px;
+  height: auto;
+}
+
+#boxes .part p {
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pricing-section {
+  padding: 20px;
+}
+.pricing-table {
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-option {
+  width: 90%;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-option h2{
+  font-size: 2em;
+}
+
+.pricing-option ul li{
+  font-size: 1.5em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer .links a {
+  margin: 0 1rem;
+}
+
+footer .credit {
+  font-size: 1.2rem;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .toggle-btn {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: block;
+      margin-top: 10px;
+      margin-left: 2px;
+justify-content: center;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+color: aquamarine;
+background-color: #1f2833;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .toggle-btn {
+      display: none;
+  }
+}
+
+/*handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+
+  .section-1 h1{
+  font-size: 5em;
+  }
+  
+  .section-1 h2 {
+    visibility: hidden;
+  }
+
+  .pricing-section {
+    padding: 10px; /* Reduced padding */
+  }
+  .pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-option {
+    width: 100%;
+    margin: 10px 0; /* Adjusted margin */
+    padding: 10px; /* Reduced padding */
+  }
+  .pricing-option h2 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+  .pricing-option p {
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 0;
+  }
+  .pricing-option ul li {
+    padding: 4px 0; /* Reduce padding */
+  }
+  .pricing-option button {
+    padding: 5px 10px; /* Adjust button padding */
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    flex: 1 1 100%; /* Make each column take up full width */
+    margin: 10px 0; /* Adjust margin for vertical spacing */
   }
 }
